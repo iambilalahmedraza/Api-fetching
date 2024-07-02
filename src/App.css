@@ -1,0 +1,66 @@
+*{
+  padding: 0;
+  margin: 0;
+  
+}
+
+body{
+  background-color: yellow;
+}
+
+nav, ul{
+  background-color: black;
+  color: wheat;
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+  height: 3rem;
+  align-items: center;
+  text-decoration: underline;
+}
+
+li{
+  list-style: none;
+}
+
+.Footer{
+
+  background-color: rgb(1, 8, 8);
+  color: 
+  rgb(249, 249, 250);
+   bottom: 0%;
+   position: fixed;
+   width: 100%;
+   height: 3rem;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+
+}
+
+.card{
+
+  border: 2px solid black;
+  background-color: yellow;
+  border-radius: 20px;
+  justify-content: center;
+  align-items: center;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  max-width: 23vw;
+}
+
+.container{
+  margin-top: 10px;
+  margin-bottom: 100px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+gap: 44px;
+ box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;;
+
+}
+
+.card:hover{
+  background-color: rgb(255, 187, 0);
+  transition-duration: 2s;
+}
